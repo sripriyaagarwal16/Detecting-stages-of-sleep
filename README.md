@@ -1,6 +1,6 @@
-# Detecting-stages-of-sleep
 
 # Research Topic:
+
 ## "Exploring Neurological Abnormality Detection in EEG Data with Provided Sleep Stage Annotations"
 
 # Abstract:
