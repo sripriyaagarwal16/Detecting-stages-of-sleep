@@ -15,4 +15,4 @@ Understanding and treating a wide range of neurological and mental problems that
 
 These stages of sleep need to be clearly characterised because a variety of health issues are linked to irregular sleep patterns. On the other hand, irregularities in non-REM (rapid eye movement) sleep could indicate problems such as apnoea insensate, limb movement disorder, and even neurological conditions like Alzheimer's and Parkinson's. For example, mood disorders and cognitive decline have been associated with anomalies in rapid eye movement (REM) sleep. The intricacy of deciphering EEG data makes human classification labour-intensive and prone to error.    
 
-![Introduction](I)
+![Introduction](Images/1.png)
