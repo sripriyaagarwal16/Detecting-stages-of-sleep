@@ -19,4 +19,8 @@ These stages of sleep need to be clearly characterised because a variety of heal
 
 
 # Plotting PSGs and Hypnograms 
+![Introduction](Images/2(2).png)
+
+![Introduction](Images/3(2).png)
+
 
