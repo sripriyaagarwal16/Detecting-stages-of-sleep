@@ -3,6 +3,9 @@
 
 ## "Exploring Neurological Abnormality Detection in EEG Data with Provided Sleep Stage Annotations"
 
+# Prototype
+![Introduction](Images/9.png)
+
 # Abstract:
 
 This research aims to investigate the detection of neurological abnormalities in EEG data using a dataset containing EEG signals and provided sleep stage annotations. Leveraging comprehensive EEG recordings with accompanying sleep stage annotations, the study seeks to identify abnormal EEG patterns indicative of neurological dysfunction within the context of sleep stages. The primary objective is to develop a method for detecting abnormalities in EEG data that integrates sleep stage information to enhance the accuracy and interpretability of abnormality detection. Through rigorous experimentation and validation using real-world EEG datasets, the proposed approach aims to provide clinicians with a reliable tool for identifying potential neurological abnormalities based on EEG signals and sleep stage annotations. The findings of this research have the potential to contribute to advancements in neurological disorder diagnosis and treatment by providing a comprehensive understanding of abnormal EEG patterns within the context of sleep stages.
