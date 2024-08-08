@@ -32,8 +32,8 @@ We will utilize a comprehensive dataset comprising both cassette and sleep telem
 **Classification**
 Our study focuses on two classification scenarios:
 
--**6-Class Classification:** Identifying and classifying each of the six different sleep stages.
--**5-Class Classification:** Aggregating certain sleep stages into a unified class to simplify classification.
+- **6-Class Classification:** Identifying and classifying each of the six different sleep stages.
+- **5-Class Classification:** Aggregating certain sleep stages into a unified class to simplify classification.
 
 # Data Preparation
 
@@ -41,7 +41,7 @@ Our study focuses on two classification scenarios:
 
 The sleep signals will be segmented into 30-second epochs. Each epoch will correspond to a single sleep stage, allowing for detailed analysis and classification of sleep stages.
 
--**Random Sampling:**
+- **Random Sampling:**
 To address class imbalance, we will perform random sampling techniques to balance the dataset. This ensures that each sleep stage is represented equally in the training and evaluation phases, enhancing model performance.
 Class Merging:
 
