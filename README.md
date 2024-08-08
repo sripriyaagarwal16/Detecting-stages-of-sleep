@@ -26,10 +26,6 @@ These stages of sleep need to be clearly characterised because a variety of heal
 
 ![Introduction](Images/4.png)
 
-# Feature Extraction Method
-
-For this research paper we have used the EEMD method for extracting different features from the sleep dataset.EEMD, or Ensemble Empirical Mode Decomposition, is a technique used to decompose complex signals into simpler components. It’s an extension of the Empirical Mode Decomposition (EMD) method, which is particularly useful for analyzing non-linear and non-stationary time series data. 
-
 # Dataset Description
 We will utilize a comprehensive dataset comprising both cassette and sleep telemetry data. This dataset is specifically designed for the classification of sleep stages and includes recordings segmented into epochs, each representing a distinct sleep stage.
 
@@ -52,6 +48,12 @@ Class Merging:
 For the 5-class classification, specific sleep stages will be merged into a single class. This simplification aims to provide a more manageable classification problem and improve overall classification accuracy.
 
 **Sleep Dataset:** https://www.physionet.org/content/sleep-edfx/1.0.0/#files-panel
+
+
+# Feature Extraction Method
+
+For this research paper we have used the EEMD method for extracting different features from the sleep dataset.EEMD, or Ensemble Empirical Mode Decomposition, is a technique used to decompose complex signals into simpler components. It’s an extension of the Empirical Mode Decomposition (EMD) method, which is particularly useful for analyzing non-linear and non-stationary time series data. 
+
 
 ## What is EEMD?
 - **Empirical Mode Decomposition (EMD):** EMD decomposes a time series into Intrinsic Mode Functions (IMFs) and a residue. Each IMF represents a simple oscillatory mode of the data, and the residue is the trend component. While EMD is effective for analyzing time series data, it can be sensitive to noise and may result in mode mixing.
