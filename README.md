@@ -25,5 +25,45 @@ These stages of sleep need to be clearly characterised because a variety of heal
 
 # PSG Signals with sleep stages
 
+![Introduction](Images/4.png)
+
+# Feature Extraction Method
+
+For this research paper we have used the EEMD method for extracting different features from the sleep dataset.EEMD, or Ensemble Empirical Mode Decomposition, is a technique used to decompose complex signals into simpler components. It’s an extension of the Empirical Mode Decomposition (EMD) method, which is particularly useful for analyzing non-linear and non-stationary time series data. 
+
+# Dataset Description
+We will utilize a comprehensive dataset comprising both cassette and sleep telemetry data. This dataset is specifically designed for the classification of sleep stages and includes recordings segmented into epochs, each representing a distinct sleep stage.
+
+**Classification**
+Our study focuses on two classification scenarios:
+
+-**6-Class Classification:** Identifying and classifying each of the six different sleep stages.
+-**5-Class Classification:** Aggregating certain sleep stages into a unified class to simplify classification.
+
+# Data Preparation
+
+**Segmentation:**
+
+The sleep signals will be segmented into 30-second epochs. Each epoch will correspond to a single sleep stage, allowing for detailed analysis and classification of sleep stages.
+
+-**Random Sampling:**
+To address class imbalance, we will perform random sampling techniques to balance the dataset. This ensures that each sleep stage is represented equally in the training and evaluation phases, enhancing model performance.
+Class Merging:
+
+For the 5-class classification, specific sleep stages will be merged into a single class. This simplification aims to provide a more manageable classification problem and improve overall classification accuracy.
+
+**Sleep Dataset:** https://www.physionet.org/content/sleep-edfx/1.0.0/#files-panel
+
+## What is EEMD?
+- **Empirical Mode Decomposition (EMD):** EMD decomposes a time series into Intrinsic Mode Functions (IMFs) and a residue. Each IMF represents a simple oscillatory mode of the data, and the residue is the trend component. While EMD is effective for analyzing time series data, it can be sensitive to noise and may result in mode mixing.
+
+- **Ensemble Empirical Mode Decomposition (EEMD):**  EEMD addresses the limitations of EMD by introducing noise into the signal and performing EMD multiple times. The process involves:
+
+- Adding white noise to the original signal.
+- Decomposing the noisy signal into IMFs using EMD.
+- Averaging the IMFs obtained from multiple realizations to get more stable and reliable results.
+
+  
+
 
 
