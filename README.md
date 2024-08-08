@@ -102,7 +102,7 @@ The optimal threshold for the adjacency matrix was determined by analyzing the c
 
 The training process was conducted over 200 epochs, using the Adam optimizer with a learning rate of *1e-4, which was chosen to fine-tune the model carefully and avoid overshooting minima in the loss landscape. The training history showed a steady increase in accuracy and a decrease in loss for both the training and validation sets, indicating effective learning without overfitting. The final test accuracy achieved was **68.11%, with a test loss of **1.284, demonstrating that the model generalized well to unseen data. The F1 score of **0.6815* and the detailed classification report highlighted the model's proficiency in distinguishing between the six sleep stages. The weighted average of the F1 score indicated a good balance between precision and recall across all classes, which was essential for minimizing misclassification risks in a medical context.
 
-
+![Introduction](Images/10.png)
 ![Introduction](Images/6.png)
 
 
